@@ -1,0 +1,30 @@
+.main-layout {
+    margin: 0 auto;
+}
+
+.card-layout {
+    border: 1px solid var(--clrLayout);
+}
+
+.card-layout > * {
+    margin-top: 4.9375rem;
+}
+
+.card-title , .pages > *{
+    text-transform: uppercase;
+}
+
+.pages{
+    border-top: 1px solid var(--clrLayout);
+    height: 42px;
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pages > * {
+    font-family: lato-bold, serif;
+    color: var(--clrPages);
+    font-size: 1.125rem;
+    cursor: pointer;
+}

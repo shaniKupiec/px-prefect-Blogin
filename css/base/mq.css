@@ -1,0 +1,161 @@
+/* MOBILE ONLY  */
+
+@media (max-width: 740px) {
+/* @media (min-width: 0px) { */
+    .main-layout {
+        background-color: rgb(169, 104, 255);
+        margin: 0 auto;
+        width: 600px;
+    }
+
+    .main-nav{
+        display: none;
+    }
+
+    .menu-container{
+        position: fixed;
+        padding-top: 100px;
+        flex-direction: column;
+        background-color: rgb(0 0 0 / 30%);
+        color: rgb(255 255 255 / 90%);
+        height: 100vh;
+        width: 100vw;
+        transform: translateX(100%);
+        transition: transform .6s, box-shadow .6s;
+    }
+
+    body.menu-open .menu-container {
+        transform: translateX(0);
+        z-index: 10;
+    }
+
+    .card{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .text{
+        width: 70%;
+        margin-top: 5px;
+        font-size: 12px;
+        height: fit-content;
+    }
+
+    .card-image{
+        width: 70%;
+    }
+
+}
+
+/* X SMALL */
+
+@media (min-width: 740px) {
+    .main-layout {
+        background-color: rgb(104, 157, 255);
+        margin: 0 auto;
+        width: 700px;
+    }
+
+    .btn-menu{
+        display: none;
+    }
+
+    .menu-container{
+        display: none;
+    }
+
+    
+    .nav-link {
+        width: 100px;
+        height: 100px;
+    }
+
+    .card{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card-image{
+        width: 80%;
+    }
+
+    .text{
+        width: 80%;
+        height: 270px;
+    }
+
+}
+
+/* SMALL */
+
+@media (min-width: 874px) {
+    .main-layout {
+        background-color: rgb(0, 255, 179);
+        margin: 0 auto;
+        width: 815px;
+    }
+
+    .card{
+        flex-direction: row;
+    }
+
+    .text{
+        width: 47%;
+        position: absolute;
+        flex-basis: 50%;
+        height: 100%;
+        margin-left: 2.5rem;
+        margin-top: 0;
+        right: 0;
+    }
+
+    .card-image{
+        flex-basis: 50%;
+        width: 40%;
+    }
+
+}
+
+
+/* MEDIUM */
+
+@media (min-width: 940px) {
+    .main-layout {
+        background-color: rgb(157, 255, 0);
+        margin: 0 auto;
+        width: 900px;
+    }
+
+    header{
+        height: 130px;
+        background-color: var(--clrHeaderBG);
+    }
+
+    .nav-link{
+        height: 130px;
+        width: 130px;
+    }
+}
+
+/* LARGE */
+
+@media (min-width: 1020px) {
+    .main-layout {
+        margin: 0 auto;
+        width: 980px;
+        background-color: rgb(255, 230, 0);
+    }
+
+    .card-title{
+        font-size: 1.75rem;
+    }
+
+    .text{
+        font-size: 16px;
+    }
+
+    .card-image{
+        width: 100%;
+    }
+
+}

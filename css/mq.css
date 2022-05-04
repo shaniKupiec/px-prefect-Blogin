@@ -1,0 +1,165 @@
+/* MOBILE ONLY  */
+
+@media (min-width: 100px) {
+    .main-layout {
+        margin: 0 auto;
+        margin-right: 1rem;
+        margin-left: 1rem;
+        /* background-color: rgb(169, 104, 255); */
+    }
+
+    header{
+        height: 100px;
+        background-color: var(--clrHeaderBG);
+    }
+
+    li{
+        height: 100px;
+        width: 6.25rem;
+    }
+
+    .card{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    img {
+        height: 100%;
+        width: 20rem;
+    }
+
+    .card-title{
+        font-size: 1.3rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .text{
+        font-size: 12px;
+        width: 20rem;
+    }
+
+    .card-text{
+        margin-bottom: 1.6875rem;
+    }
+
+}
+
+/* X SMALL */
+
+@media (min-width: 550px) {
+    .main-layout {
+        /* background-color: rgb(104, 157, 255); */
+    }
+
+    img {
+        width: 30rem;
+    }
+
+    .text{
+        width: 30rem;
+    }
+
+}
+
+/* SMALL */
+
+@media (min-width: 874px) {
+    .main-layout {
+        margin: 0 auto;
+        margin-right: 5rem;
+        margin-left: 5rem;
+        /* background-color: rgb(0, 255, 179); */
+    }
+
+    .card{
+        margin-right: 1.25rem;
+        flex-direction: row;
+    }
+
+    img {
+        width: 20rem;
+    }
+
+    .card-image{
+        margin-top: 0.625rem;
+        margin-right: 1.5rem;
+    }
+
+}
+
+
+/* MEDIUM */
+
+@media (min-width: 920px) {
+    .main-layout {
+        /* background-color: rgb(157, 255, 0); */
+    }
+
+    header{
+        height: 130px;
+        background-color: var(--clrHeaderBG);
+    }
+
+    li{
+        height: 130px;
+        width: 8.3125rem;
+    }
+
+    .card-title{
+        margin-bottom: 2.3rem;
+    }
+}
+
+/* LARGE */
+
+@media (min-width: 1150px) {
+    .main-layout {
+        /* background-color: rgb(255, 230, 0); */
+    }
+
+    img {
+        width: 29.25rem;
+    }
+
+    .card-image{
+        margin-right: 2.5625rem;
+    }
+
+    .card-title{
+        font-size: 1.75rem;
+    }
+
+    .text{
+        font-size: 16px;
+    }
+
+    .card-text{
+        margin-bottom: 2.25rem;
+    }
+
+}
+
+/* X LARGE */
+
+@media (min-width: 1315px) {
+    .main-layout {
+        margin: 0 auto;
+        margin-right: 10rem;
+        margin-left: 10rem;
+        /* background-color: rgb(255, 153, 0); */
+    }
+}
+
+
+/* XX LARGE */
+
+@media (min-width: 1523px) {
+    .main-layout {
+        margin: 0 auto;
+        margin-right: 16.25rem;
+        margin-left: 16.25rem;
+        /* background-color: red; */
+
+    }
+
+}

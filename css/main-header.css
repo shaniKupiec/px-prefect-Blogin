@@ -1,0 +1,89 @@
+.card-layout {
+    border: 1px solid var(--clrLayout);
+}
+
+.card-layout > * {
+    margin-top: 4.9375rem;
+}
+
+.card-title , .pages > *{
+    text-transform: uppercase;
+}
+
+.pages{
+    border-top: 1px solid var(--clrLayout);
+    height: 42px;
+    padding: 12px;
+}
+
+.pages > * {
+    font-family: lato-bold, serif;
+    color: var(--clrPages);
+    font-size: 1.125rem;
+}
+
+.pages > :first-child{
+    margin-inline-start: 1.5625rem;
+}
+
+.pages > :last-child{
+    float: right;
+    margin-inline-end: 1.5625rem;
+}
+
+/* head */
+
+.main-nav{
+    font-family: lato-bold, serif;
+}
+
+.symbol{
+    font-family: euro, serif;
+    font-size: 2.5rem;
+    color: var(--clrHeader);
+    margin-top: 1.9375rem;
+}
+
+.dot{
+    color: var(--clrGreen);
+}
+
+/* footer */
+
+footer{
+    background-color: var(--clrFootrBG);
+    height: 315px;
+    text-align: center;
+    font-size: 0.8125rem;
+}
+
+footer .symbol{
+    color: var(--clrHeaderBG);
+    margin: 0;
+    padding-top: 3.875rem;
+}
+
+.foot-text{
+    margin-top: 1.66875rem;
+}
+
+footer a{
+    font-family: lato-bold, serif;
+}
+
+.foot-signs{
+    margin-top: 2.33125rem;
+}
+
+.foot-signs > * :not(first-child){
+    margin-left: 1.25rem;
+}
+
+.icon{
+    width: 40px;
+    opacity: 0.3;
+}
+
+.icon:hover{
+    opacity: 1;
+}

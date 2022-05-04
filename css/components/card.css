@@ -1,0 +1,41 @@
+.card{
+    position: relative;
+    padding-right: 10px;
+}
+
+.card-title{
+    font-family: lato-bold, serif;
+    color: var(--clrTitle);
+    margin: 0;
+}
+
+.text{
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-text > *:first-child{
+    margin-bottom: 1rem;
+}
+
+.card-link{
+    font-family: lato-bold, serif;
+    color: var(--clrBtn);
+    border: 1px solid var(--clrBtn);
+    border-radius: 25px;
+    padding: 0.625em 1.5em;
+    height: 2.6em;
+    align-self: flex-start;
+    transition: .3s ease;
+}
+
+.card-link:hover{
+    color: var(--clrGreen);
+    border-color: var(--clrGreen);
+}
+
+.card-link:hover::after{
+    content: '→';
+    padding-left: 1em;
+}

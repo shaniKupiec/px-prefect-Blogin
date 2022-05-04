@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: lato-reg, serif;
+    color: var(--clrText);
+}
+
+header{
+    background-color: var(--clrHeaderBG);
+    height: 100px;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 1em;
+    font-weight: 400;
+}
+
+p{
+    margin: 0;
+}

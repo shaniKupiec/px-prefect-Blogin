@@ -1,0 +1,21 @@
+.card-title{
+    font-family: lato-bold, serif;
+    color: var(--clrTitle);
+}
+
+.card-link{
+    font-family: lato-bold, serif;
+    color: var(--clrBtn);
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 0.625rem;
+}
+
+.card-link:hover{
+    color: var(--clrGreen);
+    border-color: var(--clrGreen);
+}
+
+.hidden{
+    display: none;
+}
